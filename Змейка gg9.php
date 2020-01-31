@@ -17,11 +17,14 @@ class snake{
 	public function pop(){
 		$z = str_split ($this->len);
 		VarDumper::dump($z,10,true);
-		$z[0] = $this->x;
-		foreach($z as $keys->$arr){
-			$keay++;
-			}
-		for($i=1;$i<count($z); $i++){
+		
+		foreach($z as $key =>$arr){
+			echo '<br>';
+			$z[$key] = '*';
+			$key++;
+			$z[$key] = '>';
+			echo implode($z);
+		/*for($i=1;$i<count($z); $i++){
 			
 			
 			echo implode($z);
@@ -29,8 +32,8 @@ class snake{
 			 
 			
 			
-			}
-		
+			}*/
+		}
 	}
 } 
 $snake = new Snake();
