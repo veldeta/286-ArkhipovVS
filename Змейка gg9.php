@@ -6,7 +6,8 @@
 <body>
 <?php
 include 'VarDumper.php';
-class snake{
+class Snake
+{
 	public $color = 'red';
 	public $speed = '100';
 	public $len = '-------------------------------';

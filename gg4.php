@@ -1,6 +1,6 @@
 <?php
-
-function getPlus10($num1){
+function getPlus10($num1)
+{
 	$sum = $num1 + 10;
 	print "Sum : $sum";
 } 
@@ -9,7 +9,8 @@ echo '
 ';
 echo '<br>';
 
-function getPlus11($num1){
+function getPlus11($num1)
+{
 	$sum = $num1 + 10;
 return  $sum;	
 } 
@@ -20,7 +21,8 @@ echo '
 ';
 echo '<br>';
 
-function pythagoras($in1, $in2){
+function pythagoras($in1, $in2)
+{
 	$in1 = pow($in1, 2);
 	$in2 = pow($in2, 2);
 	return (sqrt($in1 + $in2));
@@ -32,7 +34,8 @@ echo '
 echo '<br>';
 
 
-function ipoteka ($i, $p){
+function ipoteka ($i, $p)
+{
 	$sum = $p * 5;
 	$sum2 = $i * $sum;
 	$sum3 = $sum2 + $sum;
@@ -47,54 +50,55 @@ echo '
 echo '<br>';
 
 
-function col($i,$p,$o){
+function col($i,$p,$o)
+{
 	 return $numargs = func_num_args();
 }
 echo col(12, 6, 123);
 echo '<br>';
 
 //среднее число зависимо от количество данных!
-function pup(...$nums){
+function pup(...$nums)
+{
 	$sum = 0;
-	 foreach ($nums as $n) {
+	 foreach ($nums as $n) 
+	{
        $sum = $sum + $n;
     }
 	
 	$sum1 = $sum/func_num_args();
 	return $sum1;
-}echo pup(13, 24, 10);
+}
+echo pup(13, 24, 10);
 echo '<br>';
 
-function op($num1, $num2, $operator){
-	$sum = $num1 .'$operator'.$num2;
-	eval("\$sum= \"$sum\";");
-	return $sum;
-}
- echo '==========>'.op(2,2,'+').'====';
+function op($num1, $num2, $operator)
+	{
+		eval("\$str .=\"$num1 \"$operator \"$num2 \";");
+		echo $str;
+	}
+ echo op(2,2,'+');
+ echo '<br>';
 /*==================================================*/
-function add($add1, $add2){
+function add($add1, $add2)
+{
 	$sum = $add1 + $add2;
 	return $sum;
 }
 echo add (1,2);
 
-function sub($sub1, $sub2){
+function sub($sub1, $sub2)
+{
 	$raz = $sub1 - $sub2;
 	return $raz;
 }
 echo sub(3,1);
 
-function op2($num1, $num2){
+function op2($num1, $num2)
+{
 	$sum1 = $num1 + $num2;
 	return $sum1;	
 }
 
 echo call_user_func('op2', 2,10);
- 
- 
-
-
-
-
-
 ?>

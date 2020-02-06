@@ -75,9 +75,106 @@ echo'<br>';
 /*$arr17 = [1,2,3,4,5];
 var_dump(array_splice($arr17, 1, 0, .['a','b']. 4 .['c']. 5, ['e']));*/
 //18
+$arr18 = ['a'=>1, 'b'=>2, 'c'=>3];
+$keys = array_keys($arr18);
+$values = array_values($arr18);
+var_dump ($keys);
+var_dump ($values);
+echo'<br>';
+//19
+$arr191 = array('a','b','c');
+$arr192 = array(1,2,3);
+var_dump(array_combine($arr191, $arr192));
+echo'<br>';
+//20
+$arr20 = array('a'=>1, 'b'=>2, 'c'=>3);
+var_dump(array_flip($arr20));
+echo '<br>';
+//21
+$arr21 = array(1,2,3,4,5);
+var_dump(array_reverse($arr21));
+echo '<br>';
+//22
+$arr22 = ['a', '-', 'b', '-', 'c', '-', 'd'];
+echo array_search('-', $arr22);
+echo'<br>';
+//23
+$var = array_search('-', $arr22);
+array_splice($arr22, $var, 1);
+var_dump($arr22);
+echo'<br>';
+//24
+$arr24 = ['a', 'b', 'c', 'd', 'e'];
+var_dump(array_replace($arr24, [0=>'!',3=>'!!']));
+echo'<br>';
+//25
+$arr25 = array('3'=>'a', '1'=>'c', '2'=>'e', '4'=>'b');
+sort($arr25);
+var_dump($arr25);
+echo'<br>';
+//26
+$arr26 = ['a'=>1, 'b'=>2, 'c'=>3];
+var_dump(array_rand($arr26));
+echo '<br>';
+//27
+$key = array_rand($arr26);
+var_dump($arr26[$key]);
+echo'<br>';
+//28
+shuffle($arr24);
+var_dump($arr24);
+echo'<br>';
+//29
+$arr29 = range(1,25);
+shuffle($arr29);
+var_dump($arr29);
+echo'<br>';
+//30
+$arr30 = range('a','z');
+shuffle($arr30);
+var_dump($arr30);
+echo'<br>';
+//31
+$arr31 = range('a', 'z');
+shuffle($arr31);
+$z = implode($arr31);
+$x = substr($z, 0, 6);
+echo $x;
+echo'<br>';
+//32
+$arr32 = [ 'a', 'b', 'c', 'b', 'a'];
+var_dump(array_unique($arr32));
+echo'<br>';
+//33
+$arr33 = [1,2,3,4,5];
+array_shift($arr33);
+array_pop($arr33);
+var_dump($arr33);
+echo'<br>';
+//34
+$arr34 = [1,2,3,4,5];
+array_unshift($arr34, 0);
+array_push($arr34, 6);
+var_dump($arr34);
+echo'<br>';
+//35
+$arr35 = [1,2,3,4,5,6,7,8];
+$pop = ' ';	
 
+	for($i=0; $i<4; $i++)
+	{
+		$pop .= array_shift($arr35);
+		$pop .= array_pop($arr35);
+	}
+echo $pop;
+	$ar = [1, 2, 3, 4, 5, 6, 7, 8];
+echo'<br>';
+	$str = '';
+	while (count($ar) > 0) {
+		$str  .=  array_shift($ar);
+		$str .= array_pop($ar);
+	}
 
-
-
+	echo $str;
 ?>
 
