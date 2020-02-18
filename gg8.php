@@ -38,7 +38,6 @@ class Lion{
 	}
 	
 }
-
 $lion = new Lion();
 VarDumper::dump($lion,10,true);
 $lion->go();
@@ -51,10 +50,4 @@ $lion->fight();
 VarDumper::dump($lion,10,true);
 $lion->say('арррррррр, смэрт тебе'); 
 VarDumper::dump($lion,10,true);
-
-	
-
-
-
-
 ?>

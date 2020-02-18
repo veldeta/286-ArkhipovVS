@@ -1,4 +1,5 @@
 <?php
+include 'VarDumper.php';
 //1
 $arr = ['1','2','3','4'];
 echo count($arr);
@@ -175,6 +176,51 @@ echo'<br>';
 		$str .= array_pop($ar);
 	}
 
-	echo $str;
+echo $str;
+echo'<br>';
+//36
+$arr36 = ['a', 'b', 'c'];
+var_dump(array_pad($arr36, 6,'-'));
+echo'<br>';
+//37
+var_dump(array_fill(0, 10,'x'));
+echo'<br>';
+//38
+$arr38 = range(1,20);
+$a = array_chunk($arr38, 4);
+VarDumper::dump($a,10,true);
+echo'<br>';
+//39
+$arr39 = [ 'a', 'b', 'c', 'b', 'a'];
+var_dump(array_count_values($arr39));
+echo'<br>';
+//40
+$arr40 = [1,2,3,4,5];
+var_dump(array_map('sqrt', $arr40));
+echo'<br>';
+//41
+$arr41 = ['<b>php</b>', '<i>html</i>'];
+var_dump(array_map('strip_tags', $arr41));
+echo'<br>';
+//42
+$arr42 = [' a ', ' b ', ' с '];
+var_dump(array_map('trim',$arr42));
+echo'<br>';
+//43
+$arr431 = [1, 2, 3, 4, 5];
+$arr432 = [3, 4, 5, 6, 7];
+var_dump(array_intersect($arr431, $arr432));
+echo'<br>';
+//44
+$zz = array_diff($arr431,$arr432);
+$xx = array_diff($arr432,$arr431);
+$c = array_merge($zz,$xx);
+var_dump($c);
+echo'<br>';
+//45
+$str1 = '1234567890';
+$vo = explode($str1);
+$Vova = array_sum($vo);
+var_dump($Vova);
 ?>
 
