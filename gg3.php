@@ -25,7 +25,7 @@ echo '<br>';
 $password = 7;
 if($password>5 & $password<10)
 {
- echo('верно');
+	echo('верно');
 }
 else
 {
@@ -56,20 +56,18 @@ else
 	echo('Нет');
 }
 echo '<br>';
-//13
+//14
 $str2 = 'http://kEk/lol/GoOd.com';
 if (substr($str2, 0, 7) == 'http://' || substr($str2, 0, 8) =='https://')
-	{
-		echo ('Да');
-	}
-
-	else
-	{
-		
-	}
-  
+{	
+	echo ('Да');
+}
+else
+{
+	
+}
 echo '<br>';
-//14
+//15
 $str3 = 'gg.png';
 if (substr($str3, -4) == '.png')
 {
@@ -80,7 +78,7 @@ else
 	echo ('Нет');
 }
 echo '<br>';
-//15 
+//16 
 $str4 = 'gg2.jpg';
 if (substr($str4,-4)== '.png' || substr($str4, -4) == '.jpg')
 {
@@ -91,7 +89,7 @@ else
 	echo('No');
 }
 echo '<br>';
-//16 
+//17 
 $str5 = 'ijoijiuojoiijooij';
 if(strlen($str5)>5)
 {
@@ -103,42 +101,42 @@ else
 }
 echo'<br>';
 echo'<br>';
-//17
+//18
 echo str_replace(['.'],['-'], '31.12.2012');
 echo'<br>';
-
+//19
 $str6 = 'abcabcabcabcabc';
 echo str_replace(['a','b','c'],[1,2,3], $str6);
 echo'<br>';
-
+//20
 $str7 = '1a2b3c4b5d6e7f8g9h0';
 echo str_replace(['1','2','3','4','5','6','7','8','9','0'],[], $str7);
 echo'<br>';
 echo'<br>';
-
+//21
 $str8 = 'abcabcabcabcabc';
 echo strtr('abcabcabcabcabc', 'abc', '123');
 echo'<br>';
 echo'<br>';
-
+//22
 $str9 ='01234';
 echo substr_replace($str9, '!!!', 2, 3);
 echo'<br>';
 echo'<br>';
-
+//23
 $str10 = 'abc abc abc';
 echo strpos($str10, 'b');
 echo'<br>';
-
+//24
 echo strrpos('abc abc abc', 'b');
 echo'<br>';
-
+//25
 echo strpos('abc abc abc', 'b', 3);
 echo'<br>'; 
-
+//26
 echo strpos('aaa aaa aaa aaa aaa', ' ', 4); 
 echo'<br>';
-
+//27
 $str11 = 'oahfdv/.svfb.sduhisdfg//vshsd..sdhvys';
 if(strpos($str11,'..'))
 {
@@ -149,7 +147,7 @@ else
 	echo('нет');
 }
 echo'<br>';
-
+//28
 $str12 = 'http://foihs;rojshdg/g..gmisojiughs;ldjgiorhgs;lg';
 if(strpos($str12, 'http://'))
 {
@@ -161,12 +159,12 @@ else
 }
 echo'<br>';
 echo'<br>';
-
+//29
 $str13 = 'html css php';
 $arr = explode(' ', $str13);
-echo $arr[0]. ' ' .$arr [1].' ' .$arr[2];
+echo $arr[0]. ' ' .$arr[1].' ' .$arr[2];
 echo'<br>';
-
+//30
 $arr = ['html','css','php'];
 $str = implode(' ', $arr);
 echo $str;

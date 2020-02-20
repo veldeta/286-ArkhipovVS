@@ -218,9 +218,25 @@ $c = array_merge($zz,$xx);
 var_dump($c);
 echo'<br>';
 //45
-$str1 = '1234567890';
-$vo = explode($str1);
+$str1 = '1 2 3 4 5 6 7 8 9 0';
+$vo = explode(' ', $str1);
 $Vova = array_sum($vo);
 var_dump($Vova);
+echo '<br>';
+//46
+$keys = range('a', 'z');
+$int = range(1,26);
+$arr46 = array_combine($keys, $int);
+VarDumper::dump($arr46,10,true);
+echo'<br>';
+//47
+$arr47 = range(1,9);
+$zyz = array_chunk($arr47, 3);
+VarDumper::dump($zyz, 10, true);
+echo'<br>';
+//48
+$arr48 = [1,2,3,4,5];
+$tt = in_array (4,$arr48);
+var_dump($tt);
 ?>
 

@@ -1,6 +1,7 @@
 <?php
 include 'VarDumper.php';
-class Lion{
+class Lion
+{
 	public $paw = 4;
 	public $eye = 2;
 	public $tail = 1;
@@ -8,35 +9,38 @@ class Lion{
 	public $hunger = 50;
 	public $sleep = 20;
 	public $some;
-	
-	public function go(){
+	public function go()
+	{
 		$this->hunger--;
 		$this->sleep--;
 	}
-
-	public function jump(){
+	public function jump()
+	{
 		$this->hunger = $this->hunger-3;
 	}
-	public function sleep(){
+	public function sleep()
+	{
 		$this->hunger--;
 		$this->sleep = $this->sleep+4;
 	}
-	public function fight(){
+	public function fight()
+	{
 		$str = '123456789';
 		$att = substr(str_shuffle($str),0,1);
-		if($att >= 7){
-			 
+		if($att >= 7)
+		{
 			$this->eye--;
 			$this->HP = $this->HP-11;
 		}
-		else{
+		else
+		{
 			$this->HP = $this->HP-11;
 		}
 	}
-	public function say($text){
+	public function say($text)
+	{
 		echo 'Лев рычит,'.' '.$text;
 	}
-	
 }
 $lion = new Lion();
 VarDumper::dump($lion,10,true);

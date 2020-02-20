@@ -1,5 +1,4 @@
 <?php
-
 if($_FILES['file'] == true)
 { 
 	 header("Location: http://gg/PhP/%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0%20%d1%81%20%d0%b1%d0%b0%d0%b7%d0%be%d0%b9%20%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85/%d0%a4%d0%be%d1%80%d0%bc%d0%b0.php");
@@ -30,5 +29,4 @@ VarDumper::dump($_FILES,10,true);
 $obj->file = $_FILES['file'];
 $obj->SaveFile();
 //$obj->DeleteFile();
-
 ?>
