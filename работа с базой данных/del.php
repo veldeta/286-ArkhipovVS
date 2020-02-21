@@ -1,20 +1,19 @@
 <html>
-<head>
-<meta charset="utf-8">
-<title>Delete</title>
-</head>
-<body>
-<form action="del.php" method="POST" >
-<input name="ID" type="number" required />
-<input type="submit" value="Удалить" />
-</form>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>Delete</title>
+	</head>
+	<body>
+		<form action="del.php" method="POST" >
+			<input name="ID" type="number" required />
+			<input type="submit" value="Удалить" />
+		</form>
+	</body>
 </html>
 <?php
-if(isset($_POST['ID'])){
-
-	
-		// Переменные с формы
+if(isset($_POST['ID']))
+{	
+	// Переменные с формы
 	$ID = $_POST['ID'];
 	
 	// Параметры для подключения
@@ -34,13 +33,12 @@ if(isset($_POST['ID'])){
 	}
 	if( $mysqli->query("SELECT * FROM ".$db_table." WHERE id = ".$ID.""))
 	{
-			$result = $mysqli->query("DELETE FROM ".$db_table." WHERE id = ".$ID."");
-	} else {
+		$result = $mysqli->query("DELETE FROM ".$db_table." WHERE id = ".$ID."");
+	}
+	else
+	{
 		echo 'Записи нет';
 	}
-		
-		 
-	
 	if ($result == true)
 	{
     	echo "Удаление успешна";

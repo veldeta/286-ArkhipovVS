@@ -3,7 +3,7 @@ if(isset($_POST['name']) && isset($_POST['desc']) && isset($_POST['direction']) 
 {
 
 	
-		// Переменные с формы
+	// Переменные с формы
 	$name = $_POST['name'];
 	$desc = $_POST['desc'];
 	$direction = $_POST['direction'];
@@ -28,8 +28,8 @@ if(isset($_POST['name']) && isset($_POST['desc']) && isset($_POST['direction']) 
 		printf("Не подключение к базе данных", $mysqli->connect_error);
 	}
 	$result = $mysqli->query("INSERT INTO ".$db_table."(name,`desc`,direction,date_begin,date_end,price,photo_url) VALUES ('".$name."','".$desc."','".$direction."','".$date_begin."','".$date_end."','".$price."','".$photo_url."')");	
-	
-	if ($result == true){
+	if ($result == true)
+	{
     	//echo "Информация занесена в базу данных";
 		header("Location: http://gg/PhP/%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0%20%d1%81%20%d0%b1%d0%b0%d0%b7%d0%be%d0%b9%20%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85/%d0%93%d0%bb%d0%b0%d0%b2%d0%b0%d0%bd%d0%b0%d1%8f%20%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%86%d0%b0.php");
 	

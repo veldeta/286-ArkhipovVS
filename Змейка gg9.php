@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Змейка</title>
-</head>
-<body>
+	<head>
+		<title>Змейка</title>
+	</head>
+	<body>
 <?php
 include 'VarDumper.php';
 class Snake
@@ -35,5 +35,5 @@ class Snake
 $snake = new Snake();
 $snake->pop();
 ?>
-</body>
+	</body>
 </html>

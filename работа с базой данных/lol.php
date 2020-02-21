@@ -14,6 +14,8 @@ $db_table = "mytable"; // Имя Таблицы БД
 $mysqli = new mysqli($db_host,$db_user,$db_password,$db_base);
 
 // Если есть ошибка соединения, выводим её и убиваем подключение
-if ($mysqli->connect_error) {
+if ($mysqli->connect_error) 
+{
     die('Ошибка : ('. $mysqli->connect_errno .') '. $mysqli->connect_error);
+}
 ?>

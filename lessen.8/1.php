@@ -28,7 +28,7 @@ if(isset($_POST['name']))
 	}
 }	
 include 'VarDumper.php';
-Class Anime
+class Anime
 {
 	public $name;
 	public $Surname;
@@ -59,6 +59,4 @@ echo '<br>';
 $obj1 = new Surname();
 $obj1->My();
 VarDumper::dump($obj1,10,true);
-
-
 ?>

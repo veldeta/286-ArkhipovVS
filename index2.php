@@ -13,9 +13,9 @@ class Form
 	public $file;
 	public function SaveFile()
 	{
-		 $this->file; // здесь файл 
-		 // логика сохранения файла  - см  move_uploaded_file();
-		 move_uploaded_file($this->file["tmp_name"], 'работа с базой данных/'.$this->file["name"]); 
+		$this->file; // здесь файл 
+		// логика сохранения файла  - см  move_uploaded_file();
+		move_uploaded_file($this->file["tmp_name"], 'работа с базой данных/'.$this->file["name"]); 
 	}
 	/*public function DeleteFile()
 	{
