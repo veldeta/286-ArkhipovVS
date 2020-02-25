@@ -8,3 +8,36 @@
 	margin-right:0% ;
     margin-left:0%;
 }
+.border, .border-success{
+	border: solid 1px blue;
+    border-collapse: collapse;
+    width: 500px;
+    height: 100px;
+}
+table{
+	font-size: 30px;
+	color: #fff;
+}
+table tr th{
+	color: #ff00009c;
+}
+.class{
+	background:#000
+}
+h1{
+	color:#fff;
+	text-align: center;
+}
+p{
+	color:#fff;
+	text-align: left;
+}
+form{
+	text-align: center;
+}
+.border, .border-danger{
+	border: solid 1px blue;
+    border-collapse: collapse;
+    width: 250px;
+    height: 70px;
+}

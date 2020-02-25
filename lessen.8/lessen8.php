@@ -6,7 +6,6 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	</head>
 	<body background="Evening_Forests_Mountains_Firewatch_Campo_Santo_549147_1920x1080.jpg">
-	
 		<div class="row block-top">
 			<div class="col-6 col-md-5"></div>
 			<div class="col-6 col-md-2">
@@ -33,12 +32,11 @@
 				</div>
 				<input name="dab" type="file" placeholder="файл" class="btn btn-outline-primary" />
 				<br>
-				<input type="submit" class="btn btn-outline-primary" />
+				<input type="submit" class="btn btn-outline-primary btn-block" />
 				<br>
 			</form>
 			</div>
 			<div class="col-6 col-md-5"></div>
 		</div>
-		
 	</body>
 </html>

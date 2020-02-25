@@ -5,8 +5,8 @@
 		<link rel="stylesheet" href="less8.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	</head>
-	<body background="Evening_Forests_Mountains_Firewatch_Campo_Santo_549147_1920x1080.jpg" width="100px"    height="100px">
-		<div class="row block-center">
+	<body background="Evening_Forests_Mountains_Firewatch_Campo_Santo_549147_1920x1080.jpg" >
+		<div class="row block-center" align="center">
 			<div class="col-6 col-md-5"></div>
 			<div class="col-6 col-md-2">
 				<form action="2.php">
@@ -20,6 +20,8 @@
 				</form>
 				<form action="https://dead142.github.io/design/">
 					<input type="submit" value="Задание МДК" class="btn btn-danger" />
+					<br>
+					<br>
 				</form>
 				<form action="lessen8.php">
 					<input type="submit" value="Назад" class="btn btn-info" />
