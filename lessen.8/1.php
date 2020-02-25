@@ -20,7 +20,7 @@ if(isset($_POST['name']))
 	$result = $mysqli->query("INSERT INTO ".$db_table."(name,`Surname`,`group`) VALUES ('".$name."','".$Surname."','".$group."')");
 	if($result == true)
 	{
-		//header("Location: 3.php");
+		header("Location: 3.php");
 	}
 	else
 	{

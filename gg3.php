@@ -169,42 +169,42 @@ $arr = ['html', 'css', 'php'];
 $str = implode(' ', $arr);
 echo $str;
 echo '<br>';
-
+//31
 $date = '2013-12-31';
 $arr = explode('-', $date);
 echo $arr[2] . '.' . $arr[1] . '.' . $arr[0];
 echo '<br>';
 echo '<br>';
-
+//32
 $str14 = '1234567890';
 $arr = str_split($str14, 2);
 var_dump($arr);
 echo '<br>';
 echo '<br>';
-
+//33
 $str15 = '1234567890';
 $arr = str_split($str15, 1);
 var_dump($arr);
 echo '<br>';
-
+//34
 $str16 = '1234567890';
 echo implode('-', str_split($str16, 2));
 echo '<br>';
 echo '<br>';
-
+//35
 var_dump(trim(' hello '));
 echo '<br>';
-
+//36
 echo trim('/php/', '/');
 echo '<br>';
-
+//37
 echo trim('слова слова слова.', '.');
 echo '<br>';
 echo '<br>';
-
+//38
 echo strrev('12345');
 echo '<br>';
-
+//39
 $str17 = 'madam';
 if (strrev($str17) == $str17)
 {
@@ -215,17 +215,17 @@ else
     echo 'нет';
 }
 echo '<br>';
-
+//40
 echo str_shuffle('abcabcabcabcabc');
 echo '<br>';
-
+//41
 $str18 = 'abcdefghijklmnopqrstuvwxyz';
 echo substr(str_shuffle($str18) , 0, 6);
 echo '<br>';
-
+//42
 echo number_format(12345678);
 echo '<br>';
-
+//43
 $str19 = 'x';
 for ($i = 1;$i <= 9;$i++)
 {
@@ -233,7 +233,7 @@ for ($i = 1;$i <= 9;$i++)
     echo '<br>';
 }
 echo '<br>';
-
+//44
 $x = 1;
 for ($i = 1;$i < 10;$i++)
 {
@@ -242,18 +242,18 @@ for ($i = 1;$i < 10;$i++)
     $x++;
 }
 echo '<br>';
-
+//45
 echo strip_tags('html, <b>php</b>, js');
 echo '<br>';
-
+//46
 $str20 = '<b>GG.com</b> <i>12783</i> <br>';
 echo strip_tags(($str20) , '<b>, <i>');
 echo '<br>';
-
+//47
 $str21 = 'html, <b>php</b>, js';
 echo htmlspecialchars($str21);
 echo '<br>';
-
+//48
 echo ord(' ');
 echo '<br>';
 echo ord('a');
@@ -262,24 +262,24 @@ echo ord('b');
 echo '<br>';
 echo ord('c');
 echo '<br>';
-
+//49
 echo chr(33);
 echo '<br>';
-
+//50
 $str22 = '&#71&#79&#79&#68';
 echo ($str22);
 echo '<br>';
-
+//51
 for ($len = 0;$len <= 6;$len++)
 {
     $str23 = chr(rand(97, 122));
     echo $str23;
 }
 echo '<br>';
-
+//52
 $latterr = 'M';
 $code = ord($latterr);
-
+//53
 if ($code >= 65 & $code <= 90)
 {
     echo 'Большая буква';
@@ -289,20 +289,19 @@ else
     echo 'Маленькая буква';
 }
 echo '<br>';
-
+//54
 $str24 = 'ab-cd-ef';
 echo strchr($str24, '-');
 echo '<br>';
-
+//55
 $str25 = 'ab-cd-ef';
 echo strchr($str25, '-e');
 echo '<br>';
-
+//56
 $str26 = 'ab--cd--ef';
 echo strstr($str26, '-');
 echo '<br>';
-
+//57
 $str27 = 'var_test_text';
 echo str_replace('_', '', $str27);
-
 ?>
