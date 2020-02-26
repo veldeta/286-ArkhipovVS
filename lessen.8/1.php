@@ -8,7 +8,7 @@ if(isset($_POST['name']))
 	$db_host = "localhost"; 
 	$db_user = "root"; 
 	$db_password = "";
-	$db_base = 'student';
+	$db_base = 'world';
 	$db_table = "students";
 	
 	$mysqli = new mysqli($db_host, $db_user, $db_password, $db_base);

@@ -2,7 +2,7 @@
 $db_host = "localhost"; 
 $db_user = "root";
 $db_password = "";
-$db_base = 'student'; 
+$db_base = 'world'; 
 $db_table = "students"; 
 $mysqli = new mysqli($db_host,$db_user,$db_password,$db_base);
 $result = mysqli_query($mysqli,"SELECT * FROM students");
@@ -18,18 +18,26 @@ $result = mysqli_query($mysqli,"SELECT * FROM students");
 		<div class="row">
 			<div class="col-6 col-md-5"></div>
 			<div class="col-6 col-md-2">
-				<table border="1" class="border border-success">
-					<tr>
-						<th>ID</th> <th>Name</th> <th>Surname</th> <th>Group</th> 
-					</tr>
+				<table class="table ">
+					<thead>
+						<tr>
+							<th scope="col">ID</th>
+							<th scope="col">Name</th>
+							<th scope="col">Surname</th>
+							<th scope="col">group</th>
+						</tr>
+					</thead>
 					<? while ($value = $result->fetch_assoc()) : ?>
-					<tr>
-						<td><?= $value['ID']?></td> <td> <?= $value['Name']?></td> <td><?= $value['Surname']?></td> <td><?= $value['Group']?></td>
-					</tr>		
+					<tbody>
+						<tr>
+							<th scope="row"><?= $value['ID']?></th>
+							<td> <?= $value['Name']?></td> <td><?= $value['Surname']?></td> <td><?= $value['group']?></td>
+						</tr>
+					</tbody>
 					<? endwhile; ?>
 				</table>
 				<form action="3.php">
-					<input type="submit" value="Назад" class="btn btn-outline-primary btn-block" />
+					<input type="submit" value="Назад" class="btn btn-outline-primary btn-lg btn-block" />
 				</form>
 			</div>
 			<div class="col-6 col-md-5"></div>

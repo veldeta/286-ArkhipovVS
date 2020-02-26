@@ -2,7 +2,7 @@
 $db_host = "localhost"; 
 $db_user = "root";
 $db_password = "";
-$db_base = 'student'; 
+$db_base = 'world'; 
 $db_table = "circle"; 
 
 $mysqli = new mysqli($db_host,$db_user,$db_password,$db_base);
@@ -18,14 +18,20 @@ $result = mysqli_query($mysqli,"SELECT * FROM circle");
 		<div class="row">
 			<div class="col-6 col-md-5"></div>
 			<div class="col-6 col-md-2">
-				<table border="1" class="border border-danger">
-					<tr>
-						<th>ID</th> <th>Name</th>
-					</tr>
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th scope="col">ID</th>
+							<th scope="col">Name</th>
+						</tr>
+					</thead>
 					<? while ($value = $result->fetch_assoc()) : ?>
-					<tr>
-						<td><?= $value['ID']?></td> <td> <?= $value['Name']?></td> 
-					</tr>		
+					<tbody>
+						<tr>
+							<th scope="row"><?= $value['ID']?></th>
+							<td> <?= $value['Name']?></td> 
+						</tr>	
+					</tbody>
 					<? endwhile; ?>
 				</table>
 				<form action="3.php">

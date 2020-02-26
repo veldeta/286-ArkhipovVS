@@ -16,7 +16,7 @@
 					<input type="submit" value="Информация о нас" class="btn btn-success" />
 				</form>
 				<form action="5.php">
-					<input type="submit" value="Крушки" class="btn btn-info" />
+					<input type="submit" value="Кружки" class="btn btn-info" />
 				</form>
 				<form action="https://dead142.github.io/design/">
 					<input type="submit" value="Задание МДК" class="btn btn-danger" />
