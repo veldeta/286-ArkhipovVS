@@ -26,7 +26,7 @@ $result = mysqli_query($mysqli,"SELECT * FROM tours");
 				</tr>		
 			<? endwhile; ?>
 		</table>
-		<form action="Форма.php">
+		<form action="shape.php">
 			<input name="Create" type="submit" value="Создать" action="shape.php" />
 		</form>
 		<form action="del.php">
