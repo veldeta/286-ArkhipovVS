@@ -1,15 +1,14 @@
 <?php
-namespace says;
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ .  '/vendor/autoload.php';
+//require_once  'plugs/PopClass.php';
 use App\Plugins\PopClass;
+//use Foo\Cat;
 
 
 
 
 
-
-
-class db_Class
+class DbClass
 {
 	public $name;
 	public $age;
@@ -24,4 +23,5 @@ class db_Class
 	}
 }
 
-PopClass::sos();
+PopClass::help();
+//Cat::Meow();

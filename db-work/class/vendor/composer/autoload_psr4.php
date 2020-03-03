@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Some\\and\\' => array($baseDir . '/plugs'),
     'Foo\\' => array($baseDir . '/src'),
+    'App\\Plugins\\' => array($baseDir . '/plugs'),
 );
