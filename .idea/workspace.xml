@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1659bfa6-5e90-4ad1-aae8-8e42613420d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-work/class/src/Cat.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/.idea/работа с базой данных.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/Save.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/VOLKI-krasivye-i-ochen-umnye-zhivotnye.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/change.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/Cat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/Dog.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/Says.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/Some.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/SomeClass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/db_Class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/plugs/PopClass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/vendor/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/vendor/composer/ClassLoader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/vendor/composer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/vendor/composer/autoload_classmap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/vendor/composer/autoload_namespaces.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/vendor/composer/autoload_psr4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/vendor/composer/autoload_real.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/class/vendor/composer/autoload_static.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/del.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/routes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/shape.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/static-assets-upload1491451810939016699.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/Без названия.jfif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/Главаная страница.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/работа с базой данных/пп.jfif" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db-work/class/DbClass.php" afterPath="$PROJECT_DIR$/db-work/class/DbClass.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,21 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DbClass.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DbClass.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db-work/class/DbClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PopClass.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PopClass.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db-work/class/plugs/PopClass.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -97,8 +68,8 @@
         <option value="$PROJECT_DIR$/работа с базой данных/class/DbClass.php" />
         <option value="$PROJECT_DIR$/db-work/class/src/Cat.php" />
         <option value="$PROJECT_DIR$/db-work/class/plugs/PopClass.php" />
-        <option value="$PROJECT_DIR$/db-work/class/DbClass.php" />
         <option value="$PROJECT_DIR$/db-work/Главаная страница.php" />
+        <option value="$PROJECT_DIR$/db-work/class/DbClass.php" />
       </list>
     </option>
   </component>
@@ -110,7 +81,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -151,7 +122,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../i" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -179,18 +150,18 @@
       <workItem from="1582891902319" duration="27000" />
       <workItem from="1583135874734" duration="2000" />
       <workItem from="1583141511967" duration="374000" />
-      <workItem from="1583230699280" duration="1874000" />
+      <workItem from="1583230699280" duration="3810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4145000" />
+    <option name="totallyTimeSpent" value="6081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3763326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15724947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -198,7 +169,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -284,14 +255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db-work/class/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db-work/class/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -340,14 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db-work/class/DbClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db-work/Save.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -366,6 +321,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db-work/class/plugs/PopClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db-work/class/src/Cat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -374,10 +337,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db-work/class/plugs/PopClass.php">
+    <entry file="file://$PROJECT_DIR$/db-work/class/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db-work/change.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1582704211941" expanded="true" signature="309:328" ph="SELECT * FRO... tours" />
+            <marker date="1582704211941" expanded="true" signature="561:613" ph="SELECT * FRO... tours" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db-work/class/DbClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
