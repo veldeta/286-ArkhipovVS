@@ -31,7 +31,7 @@ if(isset($_POST['name']) && isset($_POST['desc']) && isset($_POST['direction']) 
 	if ($result == true)
 	{
     	//echo "Информация занесена в базу данных";
-		header("Location: http://gg/PhP/%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0%20%d1%81%20%d0%b1%d0%b0%d0%b7%d0%be%d0%b9%20%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85/%d0%93%d0%bb%d0%b0%d0%b2%d0%b0%d0%bd%d0%b0%d1%8f%20%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%86%d0%b0.php");
+		header("Location: http://gg/PhP/286-ArkhipovVS/db-work/%d0%93%d0%bb%d0%b0%d0%b2%d0%b0%d0%bd%d0%b0%d1%8f%20%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%86%d0%b0.php");
 	
     }
 	else

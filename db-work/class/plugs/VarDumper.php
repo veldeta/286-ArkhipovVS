@@ -1,5 +1,6 @@
 <?
 
+namespace App\Plugins;
 
 
 class VarDumper {
