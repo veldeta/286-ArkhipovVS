@@ -2,9 +2,9 @@
 function pup($tree)
 {
 	$markup = '';
-	foreach($tree as $bank => $twig)
+	foreach($tree as $keys => $twig)
 	{
-		$markup .= '<li>' .((is_array($twig)) ? $bank. pup($twig): $twig) . '</li>';
+		$markup .= '<li>' .((is_array($twig)) ? $keys. pup($twig): $twig) . '</li>';
 	}
 	return '<ul>' .$markup. '</ul>';
 }
@@ -19,4 +19,3 @@ $tree = array(
 	'test3'
 );
 echo pup($tree);
-?>
