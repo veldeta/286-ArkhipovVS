@@ -11,7 +11,7 @@
 						<a class="nav-link" href="3.php">Главаная страница <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="lessen8.php">Записаться</a>
+						<a class="nav-link" href="index.php">Записаться</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

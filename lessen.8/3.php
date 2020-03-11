@@ -30,7 +30,7 @@
 					<br>
 					<br>
 				</form>
-				<form action="lessen8.php">
+				<form action="index.php">
 					<input type="submit" value="Назад" class="btn btn-info" />
 				</form>
 			</div>
